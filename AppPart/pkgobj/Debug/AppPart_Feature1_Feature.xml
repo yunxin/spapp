@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="20d40f43-69c0-47b5-b489-c41026a2f1fb" Scope="Web" Title="AppPart Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\jquery-1.7.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.7.1.js" />
+    <ElementFile Location="Scripts\jquery-1.7.1.intellisense.js" />
+    <ElementFile Location="Scripts\WebProxyExec.js" />
+    <ElementFile Location="Scripts\client\splunk.js" />
+    <ElementFile Location="Scripts\jquery.min.js" />
+    <ElementFile Location="Scripts\proxy_http.js" />
+    <ElementFile Location="Scripts\SP.js" />
+    <ElementFile Location="Scripts\SP.debug.js" />
+    <ElementFile Location="Scripts\client\splunk.test.min.js" />
+    <ElementFile Location="Scripts\client\splunk.ui.charting.js" />
+    <ElementFile Location="Scripts\client\splunk.ui.charting.min.js" />
+    <ElementFile Location="Scripts\client\splunk.ui.js" />
+    <ElementFile Location="Scripts\client\splunk.ui.min.js" />
+    <ElementFile Location="Scripts\client\splunk.ui.timeline.js" />
+    <ElementFile Location="Scripts\client\splunk.ui.timeline.min.js" />
+    <ElementFile Location="Scripts\client\splunk.min.js" />
+    <ElementFile Location="Scripts\client\splunk.test.js" />
+    <ElementFile Location="Scripts\minisplunk\backbone.js" />
+    <ElementFile Location="Scripts\minisplunk\bootstrap-1.1.1.css" />
+    <ElementFile Location="Scripts\minisplunk\bootstrap.modal.js" />
+    <ElementFile Location="Scripts\minisplunk\date.format.js" />
+    <ElementFile Location="Scripts\minisplunk\index.html" />
+    <ElementFile Location="Scripts\minisplunk\jquery.fn.gmap.js" />
+    <ElementFile Location="Scripts\minisplunk\less.js" />
+    <ElementFile Location="Scripts\minisplunk\models.js" />
+    <ElementFile Location="Scripts\minisplunk\site.js" />
+    <ElementFile Location="Scripts\minisplunk\underscore.js" />
+    <ElementFile Location="Scripts\minisplunk\views.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="jquery-1.7.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.7.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.7.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="WebProxyExec.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="proxy_http.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="SP.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="SP.debug.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.test.min.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.ui.charting.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.ui.charting.min.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.ui.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.ui.min.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.ui.timeline.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.ui.timeline.min.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.min.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="client\splunk.test.js" Target="Scripts\client\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\backbone.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\bootstrap-1.1.1.css" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\bootstrap.modal.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\date.format.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\index.html" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\jquery.fn.gmap.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\less.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\models.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\site.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\underscore.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+    <ProjectItemFile Source="minisplunk\views.js" Target="Scripts\minisplunk\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

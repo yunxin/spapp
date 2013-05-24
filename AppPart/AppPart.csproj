@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F287647-81BB-4A7E-A304-405B00FAE82A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppPart</RootNamespace>
+    <AssemblyName>AppPart</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{224cec8c-1d30-4a5a-a833-b75da3ffb0b6}</AppFeaturePartId>
+    <WspPartId>{3c6f3341-8c48-426d-8f53-153da39fd0e3}</WspPartId>
+    <WorkflowPartId>{d81678e1-c785-4639-818a-d4f00710fc1c}</WorkflowPartId>
+    <CspkgPartId>{c40073c8-01c8-444f-9bf8-150d1aa09a61}</CspkgPartId>
+    <SqlPackagePartId>{3afcfca8-ebdb-4f7f-8bae-21fd31531666}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="ClientWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7490d15c-4d58-4da7-9c6f-72a16fbe72d4}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{62959903-ab55-48ad-b8f6-7f249e49675d}</SharePointProjectItemId>
+    </None>
+    <Content Include="ClientWebPart\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3afcfca8-ebdb-4f7f-8bae-21fd31531666}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\client\splunk.min.js" />
+    <Content Include="Scripts\client\splunk.test.js" />
+    <Content Include="Scripts\client\splunk.test.min.js" />
+    <Content Include="Scripts\client\splunk.ui.charting.js" />
+    <Content Include="Scripts\client\splunk.ui.charting.min.js" />
+    <Content Include="Scripts\client\splunk.ui.js" />
+    <Content Include="Scripts\client\splunk.ui.min.js" />
+    <Content Include="Scripts\client\splunk.ui.timeline.js" />
+    <Content Include="Scripts\client\splunk.ui.timeline.min.js" />
+    <Content Include="Scripts\minisplunk\backbone.js" />
+    <Content Include="Scripts\minisplunk\bootstrap-1.1.1.css" />
+    <Content Include="Scripts\minisplunk\bootstrap.modal.js" />
+    <Content Include="Scripts\minisplunk\date.format.js" />
+    <Content Include="Scripts\minisplunk\index.html" />
+    <Content Include="Scripts\minisplunk\jquery.fn.gmap.js" />
+    <Content Include="Scripts\minisplunk\less.js" />
+    <Content Include="Scripts\minisplunk\models.js" />
+    <Content Include="Scripts\minisplunk\site.js" />
+    <Content Include="Scripts\minisplunk\underscore.js" />
+    <Content Include="Scripts\minisplunk\views.js" />
+    <Content Include="Scripts\SP.debug.js" />
+    <Content Include="Scripts\client\splunk.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\proxy_http.js" />
+    <Content Include="Scripts\SP.js" />
+    <Content Include="Scripts\WebProxyExec.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61850504-cb92-4c3b-a7a0-7b2f20757326}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{568bf01e-1089-4c48-bf6e-2f1b5be3f896}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{4fd0041d-a472-4488-bba9-43ecda700bf8}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{20d40f43-69c0-47b5-b489-c41026a2f1fb}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

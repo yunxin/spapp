@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\jquery-1.7.1.min.js" Url="Scripts/jquery-1.7.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.7.1.js" Url="Scripts/jquery-1.7.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.7.1.intellisense.js" Url="Scripts/jquery-1.7.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\WebProxyExec.js" Url="Scripts/WebProxyExec.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.js" Url="Scripts/client/splunk.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.min.js" Url="Scripts/jquery.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\proxy_http.js" Url="Scripts/proxy_http.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.test.min.js" Url="Scripts/client/splunk.test.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.ui.charting.js" Url="Scripts/client/splunk.ui.charting.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.ui.charting.min.js" Url="Scripts/client/splunk.ui.charting.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.ui.js" Url="Scripts/client/splunk.ui.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.ui.min.js" Url="Scripts/client/splunk.ui.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.ui.timeline.js" Url="Scripts/client/splunk.ui.timeline.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.ui.timeline.min.js" Url="Scripts/client/splunk.ui.timeline.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.min.js" Url="Scripts/client/splunk.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\client\splunk.test.js" Url="Scripts/client/splunk.test.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\backbone.js" Url="Scripts/minisplunk/backbone.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\bootstrap-1.1.1.css" Url="Scripts/minisplunk/bootstrap-1.1.1.css" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\bootstrap.modal.js" Url="Scripts/minisplunk/bootstrap.modal.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\date.format.js" Url="Scripts/minisplunk/date.format.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\index.html" Url="Scripts/minisplunk/index.html" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\jquery.fn.gmap.js" Url="Scripts/minisplunk/jquery.fn.gmap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\less.js" Url="Scripts/minisplunk/less.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\models.js" Url="Scripts/minisplunk/models.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\site.js" Url="Scripts/minisplunk/site.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\underscore.js" Url="Scripts/minisplunk/underscore.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\minisplunk\views.js" Url="Scripts/minisplunk/views.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

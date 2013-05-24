@@ -1,0 +1,3 @@
+C:\Users\ywu\Documents\Visual Studio 2012\C#\AppPart\bin\Debug\AppPart.pdb
+C:\Users\ywu\Documents\Visual Studio 2012\C#\AppPart\obj\Debug\AppPart.dll
+C:\Users\ywu\Documents\Visual Studio 2012\C#\AppPart\obj\Debug\AppPart.pdb
