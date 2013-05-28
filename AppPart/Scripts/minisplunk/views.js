@@ -34,8 +34,9 @@ var performSearch = function(svc, query, callback) {
   
   if (!splunkjs.Utils.startsWith(splunkjs.Utils.trim(query), "search")) {
 
-      query = 'search leaving w3wp request ' + query +
-           '|head 200 | rex ".*Leaving Monitored Scope \\(Request \\((?<Request>[^\\?\\)]*)" | eval ExecutionTime=Time/1000';
+      query = 'search leaving w3wp request ' + 
+           '|head 600 | rex ".*Leaving Monitored Scope \\(Request \\((?<Request>[^\\?\\)]*)" | eval ExecutionTime=Time/1000'+
+           '| search ' + query +  '|head 121';
 
   }
   

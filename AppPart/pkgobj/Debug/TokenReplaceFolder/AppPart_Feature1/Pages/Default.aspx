@@ -95,7 +95,7 @@
       <div class="span16 offset0 highlight"> 
         <form action class="form-stacked" id="search-form">
           <div class="clearfix">
-            <label for="searchbox">Search Requests</label>
+            <label for="searchbox">Search Requests to Sites</label>
             <div class="input-append">
               <input id="searchbox" class="xxxlarge" name="searchbox" type="text">
               <a href="" id="submit-search" class="add-on btn small primary">Search</a>
@@ -200,7 +200,7 @@
           <ul> 
             <li class="active"><a href="#search">List</a></li> 
             <li><a href="#jobs">Timeline</a></li> 
-            <li><a href="#maps">Chart</a></li> 
+            <li><a href="#maps">Throughput</a></li> 
           </ul> 
           <%--<ul class="signin">
             <li><a href="" id="login-info"></a></li>
@@ -317,7 +317,12 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"> 
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> 
     
-    <style>
+    <style>      
+        
+      html {
+        overflow-y: hidden;
+      }
+
       body {
         padding-top: 40px;
       }
@@ -339,7 +344,7 @@
       
       div#map-canvas {
         width: 100%;
-        height: 400px;
+        height: 300px;
       }
       
       div.highlight {

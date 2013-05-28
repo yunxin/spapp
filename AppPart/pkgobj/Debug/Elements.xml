@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <ClientWebPart Name="SplunkSiteActivityWebPart" Title="Site Activities Performance" Description="Analyze Site Performance through Splunk" DefaultWidth="1024" DefaultHeight="400">
+  <ClientWebPart 
+    Name="SplunkSitePerformanceWebPart" 
+    Title="Site Performance"
+    Description="Analyze Site Performance through Splunk" 
+    DefaultWidth="940" 
+    DefaultHeight="1000">
 
     <!-- Content element identifies the location of the page that will render inside the client web part
          Properties are referenced on the query string using the pattern _propertyName_

@@ -1,1 +1,1 @@
-C:\Users\ywu\Documents\Visual Studio 2012\C#\AppPart\bin\Debug\AppPart.debugapp
+C:\Users\Andy\Documents\GitHub\spapp\AppPart\bin\Debug\AppPart.debugapp

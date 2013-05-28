@@ -19,7 +19,7 @@ var Event = Backbone.Model.extend({
 
 var Events = Backbone.Collection.extend({
   model: Event,
-  resultsPerPage: 100,
+  resultsPerPage: 10,
   
   initialize: function() {
     _.bindAll(this, "getResults", "setJob");
